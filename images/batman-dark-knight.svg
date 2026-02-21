@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420" role="img" aria-labelledby="title">
+  <title>Batman Dark Knight Cover</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1019"/>
+      <stop offset="100%" stop-color="#05070b"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <path d="M50 300 L120 150 L150 210 L180 150 L250 300 Z" fill="#17263f"/>
+  <path d="M105 196 L132 165 L150 182 L168 165 L195 196 L182 196 L167 212 L150 205 L133 212 L118 196 Z" fill="#67e5ff" opacity="0.92"/>
+  <circle cx="150" cy="116" r="34" fill="#0d1624" stroke="#67e5ff" stroke-width="2"/>
+  <text x="150" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#f2f7ff" text-anchor="middle" font-weight="700">BATMAN</text>
+  <text x="150" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#9db7d6" text-anchor="middle">DARK KNIGHT</text>
+</svg>

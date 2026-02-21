@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RedRust Comics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="brand">
+    <img src="images/logo.png" alt="RedRust Comics Logo" class="logo" onerror="this.style.display='none'">
+    <h1>RedRust Comics</h1>
+  </div>
+  <div class="cart-icon" onclick="toggleCart()">
+    &#128722; <span id="cart-count">0</span>
+  </div>
+</nav>
+
+<!-- OFFERS TICKER -->
+<section class="offer-ticker" aria-label="Latest Offers">
+  <div class="offer-track">
+    <p>Hot Offer: Buy 2 Comics, Get 1 Free | Weekend Special: 20% Off on DC Collection | Free Delivery on Orders Above $50 | New Arrival Discount: Flat $5 Off on Marvel Titles</p>
+    <p aria-hidden="true">Hot Offer: Buy 2 Comics, Get 1 Free | Weekend Special: 20% Off on DC Collection | Free Delivery on Orders Above $50 | New Arrival Discount: Flat $5 Off on Marvel Titles</p>
+  </div>
+</section>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Discover Legendary Comic Worlds</h2>
+  <p>Superheroes • Manga • Graphic Novels</p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="product-list">
+</section>
+
+<!-- CART SIDEBAR -->
+<div class="cart" id="cart">
+  <h2>Your Cart</h2>
+  <div id="cart-items"></div>
+  <h3>Total: $<span id="cart-total">0</span></h3>
+  <button class="checkout">Checkout</button>
+</div>
+
+<!-- SUPPORT -->
+<footer class="support" id="support">
+  <h2>Support Contact</h2>
+  <p><strong>Name:</strong> Raj (Store Owner)</p>
+  <p><strong>Email:</strong> <a href="mailto:rajkumarnaredla42@gmail.com">rajkumarnaredla42@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:+919603460568">9603460568</a></p>
+  <p><strong>Hours:</strong> Mon - Sat, 10:00 AM - 7:00 PM</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+

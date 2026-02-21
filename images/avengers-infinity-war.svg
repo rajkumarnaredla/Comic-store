@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 420" role="img" aria-labelledby="title">
+  <title>Avengers Infinity War Cover</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111a2a"/>
+      <stop offset="100%" stop-color="#06080f"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="420" fill="url(#bg)"/>
+  <circle cx="150" cy="210" r="90" fill="#0c1422" stroke="#66e3ff" stroke-width="3"/>
+  <g fill="#66e3ff" opacity="0.9">
+    <circle cx="150" cy="165" r="10"/>
+    <circle cx="187" cy="182" r="10"/>
+    <circle cx="197" cy="222" r="10"/>
+    <circle cx="169" cy="252" r="10"/>
+    <circle cx="131" cy="252" r="10"/>
+    <circle cx="103" cy="222" r="10"/>
+  </g>
+  <path d="M150 175 L170 245 L133 203 L177 203 L140 245 Z" fill="#d5f8ff"/>
+  <text x="150" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#f2f7ff" text-anchor="middle" font-weight="700">AVENGERS</text>
+  <text x="150" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#9db7d6" text-anchor="middle">INFINITY WAR</text>
+</svg>
